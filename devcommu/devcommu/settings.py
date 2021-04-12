@@ -30,7 +30,18 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'commuapp',
     'accounts',
+
+    # allauth sns Login
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+
+    # ... include the providers you want to enable:
+    'allauth.socialaccount.providers.google', # google sns
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
