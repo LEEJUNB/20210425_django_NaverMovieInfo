@@ -10,8 +10,9 @@
 1. 가상환경 설치 `python -m venv myvenv`
 2. 가상환경 실행 `source myvenv/Script/activate`
 3. 장고 설치 : `pip install django`
-4. 프로젝트 폴더 이동 `cd devcommu`
-5. 서버 실행 `python manage.py runserver`
+4. `pip install mysql` 
+5. 프로젝트 폴더 이동 `cd devcommu`
+6. 서버 실행 `python manage.py runserver`
 
 ## 기능
 <!-- Image -->
