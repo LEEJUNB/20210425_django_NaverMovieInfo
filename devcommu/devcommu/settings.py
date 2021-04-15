@@ -43,6 +43,19 @@ INSTALLED_APPS = [
 
 SITE_ID = 1
 
+AUTHENTICATION_BACKENDS = [
+    # Needed to login by username in Django admin, regardless of `allauth`
+    # 기존 장고 인증기능
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    # 소셜로그인 기능
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+# 로그인 후 리다이렉션 위치
+LOGIN_REDIRECT_URL = '/'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
