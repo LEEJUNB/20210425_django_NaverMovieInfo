@@ -3,6 +3,7 @@
 ## 구성
 - Framwork : django
 - DB : MariaDB
+- API : Naver Movie
 ------
 
 ## 실행방법
