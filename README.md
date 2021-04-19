@@ -14,6 +14,7 @@
 4. `pip install mysql` 
 5. 프로젝트 폴더 이동 `cd devcommu`
 6. 서버 실행 `python manage.py runserver`
+-------
 
 ## 기능
 <!-- Image -->
