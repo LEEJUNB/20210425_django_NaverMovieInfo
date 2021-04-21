@@ -3,6 +3,7 @@
 ## 구성
 - Framwork : django
 - DB : MariaDB
+- API : Naver Movie API
 ------
 
 ## 실행방법
@@ -13,15 +14,17 @@
 4. `pip install mysql` 
 5. 프로젝트 폴더 이동 `cd devcommu`
 6. 서버 실행 `python manage.py runserver`
+-------
 
 ## 기능
 <!-- Image -->
 |Function|화면|Release|
 |:--:|:--:|:--:|
-|로그인, 로그아웃|||
-|회원가입|||
-|SNS 회원가입|||
-|익명게시판|||
-|자유게시판|||
-|글쓰기|||
-|댓글|||
+|로그인, 로그아웃||[o]|
+|회원가입||[o]|
+|SNS 회원가입||[o]|
+|익명게시판||[o]|
+|자유게시판||[o]|
+|글쓰기||[o]|
+|댓글||[o]|
+|||
